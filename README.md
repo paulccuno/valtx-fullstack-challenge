@@ -1,5 +1,3 @@
-<!-- @format -->
-
 # VALTX FULLSTACK CHALLENGE
 
 Perdón ando en una situación complicada
@@ -16,7 +14,9 @@ Crear un archivo .env en base a .env.tempalte para configurar las variables de e
 
 Instalar las dependencias `npm install`
 
-Finalmente ejecutar `npm run start:dev`
+Crear la base de datos `CREATE DATABASE vatlx_db;`
+
+Finalmente ejecutar `npm run start:dev`, el cual creará las tablas necesarias para el funcionamiento de la app (por recomendacion solo se usa esta configuracion en entorno dev para realizar cambios rápidos).
 
 ## FRONTEND
 
